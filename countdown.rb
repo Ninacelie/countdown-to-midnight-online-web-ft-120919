@@ -9,6 +9,7 @@ end
 
 def countdown_with_sleep(num)
   while num > 0
+    runtime = Benchmark.measure
     (runtime.real.to_i >= 5). to be true
   end
 end
