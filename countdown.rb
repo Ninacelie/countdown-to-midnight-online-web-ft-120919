@@ -8,9 +8,6 @@ end
 
 
 def countdown_with_sleep(num)
-  one_sec = sleep 1
   while num > 0
-    puts "#{num}"
-    num -= one_sec
+    (runtime.real.to_i >= 5). to be true
   end
-end
