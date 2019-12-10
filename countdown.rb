@@ -11,6 +11,7 @@ def countdown_with_sleep(num)
   while num > 0
     runtime = Benchmark.measure { countdown_with_sleep(5) }
     (runtime.real.to_i >= 5). to be true
+    puts "#{num}"
     num -= 1
   end
 end
