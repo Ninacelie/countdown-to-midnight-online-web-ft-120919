@@ -12,4 +12,5 @@ def countdown_with_sleep(num)
     puts "#{num}"
     num -= one_sec
   end
+end
   
